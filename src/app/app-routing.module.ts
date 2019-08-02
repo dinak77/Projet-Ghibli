@@ -3,13 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { FondateursComponent } from './fondateurs/fondateurs.component';
+import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
 
 const routes: Routes = [
 
   { path: '', redirectTo:'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent},
   { path: 'fondateurs', component: FondateursComponent},
-
+  { path: 'fond-ecran', component: FondEcranComponent},
   ];
 
 @NgModule({
