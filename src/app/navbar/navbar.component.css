@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Korean';
+    src: url('../../assets/fonts/Korean/Korean.ttf') format("truetype");
+  }
+  
+.navbar-nav{
+    font-family: 'Korean';
+    font-size: 2rem;
+}
+
+.dropdown{
+    font-family: 'Korean';
+    font-size: 2rem;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .dropdown-item {
+    color: white;
+    font-family: 'Korean';
+    font-size: 1.6rem;
+  }
+
+  .dropdown-item:hover {
+    color: black;
+    font-family: 'Korean';
+    font-size: 1.6rem;
+  }
+
+  .navbar {
+    border-radius: 15%;
+  }
+  
