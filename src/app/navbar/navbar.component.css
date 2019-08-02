@@ -18,17 +18,26 @@
     color: white;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav a {
     color: white;
+
+  }
+
+.nav-item:hover {
+    color: black;
   }
   
+  .navbar-nav:hover .nav-link:hover {
+    color: black;
+  }
+
   .dropdown-item {
     color: white;
     font-family: 'Korean';
     font-size: 1.6rem;
   }
 
-  .dropdown-item:hover {
+  .navbar-nav a:hover {
     color: black;
     font-family: 'Korean';
     font-size: 1.6rem;
