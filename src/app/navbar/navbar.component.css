@@ -3,6 +3,10 @@
     src: url('../../assets/fonts/Korean/Korean.ttf') format("truetype");
   }
   
+  *{
+    font-family: 'Korean';
+  }
+  
 .navbar-nav{
     font-family: 'Korean';
     font-size: 2rem;
