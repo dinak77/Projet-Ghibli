@@ -12,16 +12,18 @@
     font-size: 2rem;
 }
 
-.dropdown{
-    font-family: 'Korean';
-    font-size: 2rem;
-    color: white;
-}
-
 .navbar-nav .nav-link {
     color: white;
   }
+
+.nav-item:hover {
+    color: black;
+  }
   
+  .navbar-nav:hover .nav-link:hover {
+    color: black;
+  }
+
   .dropdown-item {
     color: white;
     font-family: 'Korean';
