@@ -19,10 +19,19 @@
 }
 
 .navbar-nav a {
+.navbar-nav .nav-link {
     color: white;
 
   }
+
+.nav-item:hover {
+    color: black;
+  }
   
+  .navbar-nav:hover .nav-link:hover {
+    color: black;
+  }
+
   .dropdown-item {
     color: white;
     font-family: 'Korean';
